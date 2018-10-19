@@ -1,0 +1,123 @@
+<html>
+<font color="0825C1" face="Lucida Console" >
+<head>
+<title>Home</title>
+</head>
+<body BGCOLOR="#FFFFFF">
+<p><font size="64" color="Red" face="Lucida Console"<p><center>Pennant Hills High School</center></font>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: -10;
+    padding: 5;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 41px 50px;
+    text-decoration: none;
+	font-size:30px;
+}
+
+li a:hover {
+    background-color: #8698F7;
+}
+</style>
+</head>
+<body>
+<ul class="topnav" style="background-color: #FFFFFF" >
+<li><img src="Penno symbol.jpg"  width="100" height="100"></li>
+ <li><a class="active"href="School webpage 1.html"><b>Home</b></a></li>
+ <li><a href="School webpage 2.html" ><b>Year Structure</b></a></li>
+ <li><a href="School webpage 3.html"><b>Video Advertisement</b></a></li>
+ <li><a href="School webpage 4.html"><b>Enrolment</b></a></li>
+</style>
+</ul>
+<br>
+<div style="padding-left:16px">
+<h1 style="font-size:30px;" align="center"><b>Pennant Hills High School</b> staff and students strive to achieve nothing but the best in all educational fields.</h1>
+</div>
+
+</body>
+</html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"; align="right">
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container"; align="center" style="float:center">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Group photo.jpg" style="width:80%";"float:right,">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Music photo.jpg" style="width:80%";"float:right">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Nice.jpg" style="width:80%";"float:right">
+  <div class="text"></div>
+</div>
+<h1 style="font-size:30px"; "float:right">General school information</h1>
+<i style="font-size:30px">Laurence Street<br>
+Pennant Hills NSW 2120<br>
+02 9473 5000<br>
+pennanthil-h.school@det.nsw.edu.au</i>	
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 3.5 seconds
+}
+
+</script>
+
+</body>
+
+</html> 
